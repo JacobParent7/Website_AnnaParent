@@ -9,8 +9,9 @@ body,html {
 }
 
 .menu{
+    display: block;
     width: 100%;
-    height: 8%;
+    height: 50px;
     position: fixed;
     background-color: black;
     border-bottom: 2px;
@@ -24,6 +25,14 @@ body,html {
     z-index: 5;
 }
 
+.items{ 
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+}
+
 a:link, a:visited{
     color: white;
     text-decoration: none;
@@ -35,14 +44,12 @@ li:hover{
     color:deeppink
 }
 li{
+    left: 50%;
+    bottom: 50%;
     display: inline;
     color: white;
 }
-.items{ 
-    color: white;
-    letter-spacing: 0.2em;
-    word-spacing: 1em;
-}
+
 .bg-image{
     display: grid;
     grid-template-columns: 1fr;
